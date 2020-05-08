@@ -1,8 +1,7 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
-      <style>
-      </style>
+        <h1>Hello World</h1>
     `;
 customElements.define('com-sap-sample-helloworld1', class HelloWorld1 extends HTMLElement {
     
