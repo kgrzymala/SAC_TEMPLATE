@@ -3,7 +3,7 @@
     tmpl.innerHTML = `
     `;
 
-    customElements.define('com-sap-sample-big-cock', class template extends HTMLElement {
+    customElements.define('com-sap-sample-big-cock2', class HelloWorld1 extends HTMLElement {
 
 
 		constructor() {
