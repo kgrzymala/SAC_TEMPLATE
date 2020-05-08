@@ -4,7 +4,7 @@
         <h1> 8==D </h1>
     `;
 
-    customElements.define('com-sap-sample-helloworld9', class HelloWorld1 extends HTMLElement {
+    customElements.define('com-sap-sample-big-cock', class HelloWorld1 extends HTMLElement {
 
 
 		constructor() {
