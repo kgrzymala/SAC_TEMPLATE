@@ -24,6 +24,8 @@
         disconnectedCallback(){
         
         }
+	    whenDefined(){
+        }
 
          //When the custom widget is updated, the Custom Widget SDK framework executes this function first
 		onCustomWidgetBeforeUpdate(oChangedProperties) {
