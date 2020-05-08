@@ -42,5 +42,5 @@
 		}
 	}
 
-customElements.define("com-sap-sample-big-cock2", HelloWorldAps);
+customElements.define("com-sap-sample-big-cock2-aps", HelloWorldAps);
 })();
