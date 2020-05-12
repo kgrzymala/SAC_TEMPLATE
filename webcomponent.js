@@ -1,6 +1,56 @@
 (function()  {
     let tmpl = document.createElement('template');
     tmpl.innerHTML = `
+<html>
+    <head>
+        <title>penis</title>
+    </head>
+    <body>
+        <svg width="2000" height="2000">
+        <!--Creating a circle-->
+   <circle cx="80" cy="80" r="50" fill="pink">
+   <!--Animate this one-->
+   <animate attributeName="cx" from="80" to="110"
+      dur="0.25s" fill="freeze" repeatCount="indefinite"/>
+      </circle>
+      <!--Creating a rectangle-->
+   <rect width="250" height="100" x="80" y="80" fill="pink" stroke="round" style="stroke-linecap:round">
+   <!--Animate this rectangle-->
+   <animate attributeName="x" from="80" to="110"
+      dur="0.25s" fill="freeze" repeatCount="indefinite"/>
+    </rect> 
+    <!--Creating another circle-->
+    <circle cx="80" cy="180" r="50" fill="pink">
+    <!--Animate another one-->
+    <animate attributeName="cx" from="80" to="110"
+      dur="0.25s" fill="freeze" repeatCount="indefinite"/>
+      </circle>
+      <!--Creating last circle-->
+    <circle cx="330" cy="130" r="50" fill="pink">
+    <!--Animate last one-->
+    <animate attributeName="cx" from="330" to="360"
+      dur="0.25s" fill="freeze" repeatCount="indefinite"/>
+    </circle>
+    <!--Creating first line-->
+    <line x1="300" y1="80" x2="300" y2="180" style="stroke:#000; stroke-width:5">
+    <!--Animate this line-->
+    <animate attributeName="x1" from="300" to="330"
+    dur="0.25s" fill="freeze" repeatCount="indefinite"/> 
+    <animate attributeName="x2" from="300" to="330"
+    dur="0.25s" fill="freeze" repeatCount="indefinite"/>
+    </line>
+    <!--Creating main line-->
+    <line x1="340" y1="130" x2="380" y2="130" style="stroke:#000; stroke-width:5">
+    <!--Animate main line-->
+    <animate attributeName="x1" from="340" to="370"
+    dur="0.25s" fill="freeze" repeatCount="indefinite"/> 
+    <animate attributeName="x2" from="380" to="410"
+    dur="0.25s" fill="freeze" repeatCount="indefinite"/>
+    </line>
+</svg>
+    </body>
+</html>
+
     `;
 
     customElements.define('com-sap-sample-big-cock2', class HelloWorld extends HTMLElement {
